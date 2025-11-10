@@ -1,0 +1,15 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: jwt-demo
+
+logging:
+  level:
+    org.springframework:
+        security: INFO
+    com:
+      example:
+        oauth: DEBUG
